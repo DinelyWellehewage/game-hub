@@ -2,11 +2,9 @@ import { useEffect, useState } from "react";
 import { Game } from "./useGames";
 import { AxiosRequestConfig, CanceledError } from "axios";
 import apiClient from "../services/api-client";
+import { FetchResponse } from "../services/api-client";
 
-export interface FetchResponse<T> {
-  count: number;
-  results: T[];
-}
+
 
 const useData = <T>(
   endpoint: string,
