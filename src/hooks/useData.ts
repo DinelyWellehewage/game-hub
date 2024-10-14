@@ -3,7 +3,7 @@ import { Game } from "./useGames";
 import { AxiosRequestConfig, CanceledError } from "axios";
 import apiClient from "../services/api-client";
 
-interface FetchResponse<T> {
+export interface FetchResponse<T> {
   count: number;
   results: T[];
 }
