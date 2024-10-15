@@ -17,9 +17,7 @@ import SortSelector from "./components/SortSelector";
 function App() {
   
 
-  return (
-   
-  );
+  
 }
 
 export default App;
