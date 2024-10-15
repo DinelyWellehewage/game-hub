@@ -18,36 +18,7 @@ function App() {
   
 
   return (
-    <Grid
-      templateAreas={{
-        base: `"nav" "main"`,
-        lg: `"nav nav" "aside main"`,
-      }}
-      templateColumns={{
-        base: "1fr",
-        lg: "200px 1fr",
-      }}
-    >
-      <GridItem area="nav">
-        <NavBar/>
-      </GridItem>
-      <Show above="lg"></Show>
-      <GridItem area="aside" padding={5}>
-        <GenreList />
-      </GridItem>
-      <GridItem area="main">
-        <Box paddingLeft={2}>
-          <GameHeading />
-          <Flex marginBottom={5} align="Center">
-            <Box marginRight={5}>
-              <PlatformSelector/>
-            </Box>
-            <SortSelector />
-          </Flex>
-        </Box>
-        <GameGrid />
-      </GridItem>
-    </Grid>
+   
   );
 }
 
