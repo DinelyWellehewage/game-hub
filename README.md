@@ -1,6 +1,8 @@
 # Game Hub
 
 Game Hub is an online platform designed to bring gamers together, offering a seamless experience to explore, manage, and interact with a diverse collection of games.
+![game-hub](https://github.com/user-attachments/assets/fca7733e-0115-4d0e-9089-d5e681e9233b)
+
 
 ## Features
 
@@ -52,10 +54,12 @@ Follow these steps to run the project locally:
    ```
 ---
 ## Usage
-Visit the web application at http://localhost:3000 after starting the frontend server.
+Visit the web application at [Game-Hub](https://game-hub-ten-bice.vercel.app/) after starting the frontend server.
 Browse and search for your favorite games.
 View game details and manage your personal game list.
 
 ## Contact
+
 Author: Dinely Shanuka
+
 Email: dinelywh78@gmail.com
