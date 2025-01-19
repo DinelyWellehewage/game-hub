@@ -2,18 +2,6 @@
 
 Game Hub is an online platform designed to bring gamers together, offering a seamless experience to explore, manage, and interact with a diverse collection of games.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## Features
 
 - Browse and explore a wide range of games.
@@ -39,3 +27,34 @@ Follow these steps to run the project locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/DinelyWellehewage/game-hub.git
+   ```
+
+2. **Navigate to the Project Directory:**:
+   ```bash
+   cd game-hub
+   ```
+
+3. **Install Dependencies: Navigate to both frontend and backend directories and install dependencies**:
+   ```bash
+   cd frontend
+npm install
+cd ../backend
+npm install
+```
+
+4. **Run the Project**:
+   ```bash
+   cd frontend
+npm start
+cd ../backend
+npm run dev
+   ```
+---
+## Usage
+Visit the web application at http://localhost:3000 after starting the frontend server.
+Browse and search for your favorite games.
+View game details and manage your personal game list.
+
+## Contact
+Author: Dinely Shanuka
+Email: dinelywh78@gmail.com
