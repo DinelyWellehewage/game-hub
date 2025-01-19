@@ -37,17 +37,18 @@ Follow these steps to run the project locally:
 3. **Install Dependencies: Navigate to both frontend and backend directories and install dependencies**:
    ```bash
    cd frontend
-npm install
-cd ../backend
-npm install
+   npm install
+   cd ../backend
+   npm install
+
 ```
 
 4. **Run the Project**:
    ```bash
    cd frontend
-npm start
-cd ../backend
-npm run dev
+   npm start
+   cd ../backend
+   npm run dev
    ```
 ---
 ## Usage
